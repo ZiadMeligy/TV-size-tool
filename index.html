@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    
+    <link rel="stylesheet" href="css/mdb.min.css"/>
+    <link rel="stylesheet" href="css/yarab.css">
+    <link rel="stylesheet" href="./range-slider-main/assets/css/styles.css">
+  </head>
+  <body>
+
+<div class="maincontainer">
+  <div class="container-lg shadow-5-strong contcenter mx-auto btats ">
+    <div class="row justify-content-center pt-4">
+      <div class="col text-center"><h1 class="">TV SCREEN SLIDER</h1></div>
+    </div>
+    <div class="row justify-content-center" >
+      <div class="col-lg-9 order-2 col-sm-12 " style="flex-wrap: nowrap;">
+        <div class="tooltipcontainer">
+
+          <img class="kanaba" id="kanaba" src="img/google kanaba-02.png" alt="">
+          <img class="telefision" id="tv" src="img/google tv-02.png" alt="">
+          <div id="tooltipmove" class="tooltipcont">XX inch TV</div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-12 order-1 pt-1 text-center">
+        <h5>Find out your favourite TV Screen size <br> by our own screen sizer</h3>
+      </div>
+      
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-9 order-lg-2 text-end py-5 px-5">
+        <div class="range mx-auto">
+          <div class="range__content">
+            <div class="range__slider">
+                <div class="range__slider-line" id="range-line"></div>
+            </div>
+            
+            <div class="range__thumb" id="range-thumb">
+                <div class="range__value">
+                  <span class="range__value-number" id="range-number">50</span>
+                </div>
+            </div>
+
+            <input type="range" class="range__input" id="range-input" min="0" max="70" value="40" step="10">
+          </div>
+      </div>
+      </div>
+      <div class="col-lg-3 order-lg-1">
+        <div class="text-center">
+          <span><h4 style="font-weight: 700;" id="TV-size">EXTRA LARGE TVS</h4></span><br>
+          <div class="desc-tv container-fluid bg-white shadow-5-strong p-2">
+            <span id="TV-descriptions">Move the Range Slider to see the visualization to figure out your TV screen size</span> 
+          </div>
+        </div> 
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center pb-3">
+        <a href="https://alagheza.com/tv-section/"><button class="btn btn-dark mt-3" id="btn-review">TV screen reviews now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- 
+  <div class="container shadow-3-strong contcenter mt-5">
+    <div class="row justify-content-center pt-3">
+      <h1 class="text-center">TV SCREEN SLIDER</h1>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-lg-5 col-md-7 col-sm-12">
+        <div class="container p-5">
+
+        </div>
+      </div>
+        <div class="d-flex justify-content-center  ">
+          
+          <img src="img/google kanaba-02.png" class="img" alt="kanaba">
+
+          <img src="img/google tv-02.png" class="img-fluid">
+        
+        </div>
+        <div class="col-lg-7">
+          Build your own site
+        </div>
+      </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div> 
+            <button class="btn btn-primary ">Best TV (your screen size) Review</button>
+  
+          </div>
+        </div>
+      </div> -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script src="./range-slider-main/assets/js/main.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

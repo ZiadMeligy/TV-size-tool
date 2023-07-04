@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #efeff0;
+    margin: 0;
+    padding: 0;
+}
+.maincontainer{
+
+    
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0;
+    padding: 15px;
+    background-color: #141415;
+   
+   
+    
+    
+}
+
+.headerinfo{
+    padding: 15px;
+}
+
+.img-container{
+    display: flex;
+    display: relative;
+    
+}
+
+.contcenter{
+    margin: auto;
+    border-radius: 20px;
+    background-color: #efeff0;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .telefision {
+      width: 130px;
+        
+    }
+    .kanaba{
+        width: 130px;
+    }
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+	background: linear-gradient(to right, #04f1f9 0%, #0347f2 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    
+  }
+
+ .btats{
+    margin-top: 20px;
+ }
+
+ .tooltipcontainer{
+    position: relative;
+    display: flex;
+ }
+
+ .tooltipcont{
+    
+        /* visibility: hidden; */
+        transition: 0.5s;
+        width: 120px;
+        padding: 30px;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        border-radius: 4px;
+        padding: 5px;
+        position: absolute;
+        z-index: 1;
+        top: 42%; /* Position the tooltip above the element */
+        left: 52%;
+        transform: translateX(-50%);
+        
+ }
+ 
+ .tooltipcont::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent black transparent transparent;
+  }
+ #TV-size{
+    font-weight: 900;
+ }
+
+  @media only screen and (max-width: 1000px){
+
+    .tooltipcont{
+        visibility: hidden;
+    }
+
+    #TV-descriptions{
+        font-size: 11px;
+    }
+  }
+
+  .desc-tv{
+    margin: auto;
+    padding: 8px;
+    border-radius: 15px;
+  }
