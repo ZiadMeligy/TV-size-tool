@@ -35,9 +35,9 @@ rangeSlider.addEventListener('input', function(event) {
             }
             
             tooltip.textContent="32 inch TV"
-            revbtn.textContent="Click here for 32 inch TV reviews"
-            size_text.textContent="Small TVs (32 inch)"
-            tv_size_desc.textContent="If you're after a slightly larger second TV for a bedroom or kitchen, the optimum distance for a 32-inch TV is about 2 meters (7 feet)"
+            revbtn.textContent="إضغط هنا عشان تشوف مراجعة شاشات الـ32 بوصة "
+            size_text.textContent="شاشة صغير 32 بوصة"
+            tv_size_desc.textContent="الشاشات صاحبة الـ32 بوصة بتبقى مناسبة لمسافة 2 متر "
             break;
         case "10":
             rangenumber.textContent="2.5m"
@@ -56,9 +56,9 @@ rangeSlider.addEventListener('input', function(event) {
             }
             
             tooltip.textContent="40-43 inch TV"
-            revbtn.textContent="Click here for 40-43 inch TV reviews"
-            size_text.textContent="Medium TVs (40-43 inch)"
-            tv_size_desc.textContent="Moving into the realms of medium-sized TVs, a 40-inch set could be a good main TV if you don't want it to dominate, or an extravagant second TV. Best viewed at 9 feet (2.45 meters) away."
+            revbtn.textContent="إضغط هنا عشان تشوف مراجعة شاشات الـ40/43 بوصة"
+            size_text.textContent="شاشة صغير 32 بوصة"
+            tv_size_desc.textContent=" الشاشات صاحبة الـ40/43 بوصة بتبقى مناسبة لمسافة 2.5 متر "
 
 
             break;
@@ -81,8 +81,8 @@ rangeSlider.addEventListener('input', function(event) {
             
             tooltip.textContent="48-50 inch TV"
             size_text.textContent="Medium/Large TVs (48-50 inch)"
-            revbtn.textContent="Click here for 48-50 inch TV reviews"
-            tv_size_desc.textContent="At the upper end of the 'medium' scale, modern 48-50-inch TVs are slimline enough not to appear overbearing, and could be a good choice if you typically sit around 9 feet (2.6 meters) away."
+            revbtn.textContent="إضغط هنا عشان تشوف مراجعة شاشات الـ48/50 بوصة"
+            tv_size_desc.textContent=" الشاشات صاحبة الـ48/50 بوصة بتبقى مناسبة لمسافة 2.7 متر "
             break;
         case "30":
             rangenumber.textContent="3.0m"
@@ -101,9 +101,9 @@ rangeSlider.addEventListener('input', function(event) {
             }
             
             tooltip.textContent="48-50 inch TV"
-            tv_size_desc.textContent="At the upper end of the 'medium' scale, modern 48-50-inch TVs are slimline enough not to appear overbearing, and could be a good choice if you typically sit around 9 feet (2.6 meters) away."
+            tv_size_desc.textContent=" الشاشات صاحبة الـ48/50 بوصة بتبقى مناسبة لمسافة 3 متر "
             size_text.textContent="Medium/Large TVs (48-50 inch)"
-            revbtn.textContent="Click here for 48-50 inch TV reviews"
+            revbtn.textContent="إضغط هنا عشان تشوف مراجعة شاشات الـ48/50 بوصة"
             break;
         case "40":
             rangenumber.textContent="3.4m"
@@ -123,8 +123,8 @@ rangeSlider.addEventListener('input', function(event) {
             }
             tooltip.textContent="55 inch TV" 
             size_text.textContent="Large TVs (55 inch)"
-            tv_size_desc.textContent="Thanks to modern, slimline designs with small bezels, 55-inch TVs are more popular than ever. Ideal if you've got your feet up around 11 feet (3.3 meters) away from the screen."
-            revbtn.textContent="Click here for 55 inch TV reviews"
+            tv_size_desc.textContent=" الشاشات صاحبة الـ55 بوصة بتبقى مناسبة لمسافة 3.4 متر"
+            revbtn.textContent="إضغط هنا عشان تشوف مراجعة شاشات الـ55 بوصة"
             break;
         case "50":
             rangenumber.textContent="3.7m"
@@ -144,8 +144,8 @@ rangeSlider.addEventListener('input', function(event) {
             
             tooltip.textContent="55 inch TV"
             size_text.textContent="Large TVs (55 inch)"
-            tv_size_desc.textContent="Thanks to modern, slimline designs with small bezels, 55-inch TVs are more popular than ever. Ideal if you've got your feet up around 11 feet (3.3 meters) away from the screen."
-            revbtn.textContent="Click here for 55 inch TV reviews"
+            tv_size_desc.textContent=" الشاشات صاحبة الـ55 بوصة بتبقى مناسبة لمسافة 3.7 متر "
+            revbtn.textContent="إضغط هنا عشان تشوف مراجعة شاشات الـ55 بوصة"
             break;
         case "60":
             rangenumber.textContent="4m"
@@ -164,10 +164,10 @@ rangeSlider.addEventListener('input', function(event) {
             }
                 
             tooltip.textContent="65 inch TV"
-            tv_size_desc.textContent="If you're really pushing the boat out, or you have a large room and sit about 13 feet (3.7 meters) away from the screen, these extra-large sets have really come down in price."
+            tv_size_desc.textContent=" الشاشات صاحبة الـ65 بوصة بتبقى مناسبة لمسافة 4 متر"
 
             size_text.textContent="Extra-large TVs (65 inch)"
-            revbtn.textContent="Click here for 65 inch TV reviews"
+            revbtn.textContent="إضغط هنا عشان تشوف مراجعة شاشات الـ65 بوصة"
             break;
         case "70":
             rangenumber.textContent="4m+"
@@ -187,8 +187,8 @@ rangeSlider.addEventListener('input', function(event) {
                     
             tooltip.textContent="65+ inch TV"
             size_text.textContent="Extra-large TVs (65+ inch)"
-            tv_size_desc.textContent="Looking to take things to the extreme? There are a handful of TVs around larger than 65-inches in size, though you'll need to be at least 14 feet (4.2 meters) away for the best experience."
-            revbtn.textContent="Click here for 65+ inch TV reviews"
+            tv_size_desc.textContent=" الشاشات صاحبة الـ+65 بوصة بتبقى مناسبة لمسافة اكبر من 4 متر "
+            revbtn.textContent = "إضغط هنا عشان تشوف مراجعة شاشات الـ+65 بوصة";
             break;
 
             
