@@ -34,7 +34,7 @@ rangeSlider.addEventListener('input', function(event) {
                 tooltip.style.left="59.5%"
             }
             
-            tooltip.textContent="32 inch TV"
+            tooltip.textContent="32 بوصة"
             revbtn.textContent="إضغط هنا عشان تشوف مراجعة شاشات الـ32 بوصة "
             size_text.textContent="شاشة صغير 32 بوصة"
             tv_size_desc.textContent="الشاشات صاحبة الـ32 بوصة بتبقى مناسبة لمسافة 2 متر "
@@ -55,7 +55,7 @@ rangeSlider.addEventListener('input', function(event) {
                 tooltip.style.left="62.5%"
             }
             
-            tooltip.textContent="40-43 inch TV"
+            tooltip.textContent="40-43 بوصة"
             revbtn.textContent="إضغط هنا عشان تشوف مراجعة شاشات الـ40/43 بوصة"
             size_text.textContent="شاشة متوسطة الحجم (40-43 بوصة)"
             tv_size_desc.textContent=" الشاشات صاحبة الـ40/43 بوصة بتبقى مناسبة لمسافة 2.5 متر "
