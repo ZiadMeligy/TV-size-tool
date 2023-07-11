@@ -166,7 +166,7 @@ rangeSlider.addEventListener('input', function(event) {
             tooltip.textContent="65 بوصة"
             tv_size_desc.textContent=" الشاشات صاحبة الـ65 بوصة بتبقى مناسبة لمسافة 4 متر"
 
-            size_text.textContent="شاشة ضخمة (65 بوصة أو أكثر)"
+            size_text.textContent="شاشة ضخمة (65 بوصة)"
             revbtn.textContent="إضغط هنا عشان تشوف مراجعة شاشات الـ65 بوصة"
             break;
         case "70":
@@ -187,7 +187,7 @@ rangeSlider.addEventListener('input', function(event) {
                     
             tooltip.textContent="65+ بوصة"
             tooltip.style.fontWeight="600"
-            size_text.textContent="Extra-large TVs (65+ inch)"
+            size_text.textContent="شاشة ضخمة (65 بوصة أو أكثر)"
             tv_size_desc.textContent=" الشاشات صاحبة الـ+65 بوصة بتبقى مناسبة لمسافة اكبر من 4 متر "
             revbtn.textContent = "إضغط هنا عشان تشوف مراجعة شاشات الـ+65 بوصة";
             break;
