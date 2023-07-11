@@ -57,7 +57,7 @@ rangeSlider.addEventListener('input', function(event) {
             
             tooltip.textContent="40-43 inch TV"
             revbtn.textContent="إضغط هنا عشان تشوف مراجعة شاشات الـ40/43 بوصة"
-            size_text.textContent="شاشة صغير 32 بوصة"
+            size_text.textContent="شاشة متوسطة الحجم (40-43 بوصة)"
             tv_size_desc.textContent=" الشاشات صاحبة الـ40/43 بوصة بتبقى مناسبة لمسافة 2.5 متر "
 
 
@@ -79,8 +79,8 @@ rangeSlider.addEventListener('input', function(event) {
                 tooltip.style.left="65.3%"
             }
             
-            tooltip.textContent="48-50 inch TV"
-            size_text.textContent="Medium/Large TVs (48-50 inch)"
+            tooltip.textContent="48-50 بوصة"
+            size_text.textContent="شاشة متوسطة/كبيرة الحجم (48-50 بوصة)"
             revbtn.textContent="إضغط هنا عشان تشوف مراجعة شاشات الـ48/50 بوصة"
             tv_size_desc.textContent=" الشاشات صاحبة الـ48/50 بوصة بتبقى مناسبة لمسافة 2.7 متر "
             break;
@@ -100,9 +100,9 @@ rangeSlider.addEventListener('input', function(event) {
                 tooltip.style.left="68.7%"
             }
             
-            tooltip.textContent="48-50 inch TV"
+            tooltip.textContent="48-50 بوصة"
             tv_size_desc.textContent=" الشاشات صاحبة الـ48/50 بوصة بتبقى مناسبة لمسافة 3 متر "
-            size_text.textContent="Medium/Large TVs (48-50 inch)"
+            size_text.textContent="شاشة متوسطة/كبيرة الحجم (48-50 بوصة)"
             revbtn.textContent="إضغط هنا عشان تشوف مراجعة شاشات الـ48/50 بوصة"
             break;
         case "40":
@@ -121,8 +121,8 @@ rangeSlider.addEventListener('input', function(event) {
             }else{
                 tooltip.style.left="72%"
             }
-            tooltip.textContent="55 inch TV" 
-            size_text.textContent="Large TVs (55 inch)"
+            tooltip.textContent="55 بوصة" 
+            size_text.textContent="شاشة كبيرة (55 بوصة)"
             tv_size_desc.textContent=" الشاشات صاحبة الـ55 بوصة بتبقى مناسبة لمسافة 3.4 متر"
             revbtn.textContent="إضغط هنا عشان تشوف مراجعة شاشات الـ55 بوصة"
             break;
@@ -142,8 +142,8 @@ rangeSlider.addEventListener('input', function(event) {
                 tooltip.style.left="75%"
             }
             
-            tooltip.textContent="55 inch TV"
-            size_text.textContent="Large TVs (55 inch)"
+            tooltip.textContent="55 بوصة"
+            size_text.textContent="شاشة كبيرة (55 بوصة)"
             tv_size_desc.textContent=" الشاشات صاحبة الـ55 بوصة بتبقى مناسبة لمسافة 3.7 متر "
             revbtn.textContent="إضغط هنا عشان تشوف مراجعة شاشات الـ55 بوصة"
             break;
@@ -163,10 +163,10 @@ rangeSlider.addEventListener('input', function(event) {
                 tooltip.style.left="78%"
             }
                 
-            tooltip.textContent="65 inch TV"
+            tooltip.textContent="65 بوصة"
             tv_size_desc.textContent=" الشاشات صاحبة الـ65 بوصة بتبقى مناسبة لمسافة 4 متر"
 
-            size_text.textContent="Extra-large TVs (65 inch)"
+            size_text.textContent="شاشة ضخمة (65 بوصة أو أكثر)"
             revbtn.textContent="إضغط هنا عشان تشوف مراجعة شاشات الـ65 بوصة"
             break;
         case "70":
@@ -185,7 +185,8 @@ rangeSlider.addEventListener('input', function(event) {
                 tooltip.style.left="81%"
                 }
                     
-            tooltip.textContent="65+ inch TV"
+            tooltip.textContent="65+ بوصة"
+            tooltip.style.fontWeight="600"
             size_text.textContent="Extra-large TVs (65+ inch)"
             tv_size_desc.textContent=" الشاشات صاحبة الـ+65 بوصة بتبقى مناسبة لمسافة اكبر من 4 متر "
             revbtn.textContent = "إضغط هنا عشان تشوف مراجعة شاشات الـ+65 بوصة";
@@ -194,3 +195,25 @@ rangeSlider.addEventListener('input', function(event) {
             
     }
 });
+
+window.onload = ()=>{
+    rangenumber.textContent="3.4m"
+    tv.style.position="relative"
+    tv.style.transition='0.5s'
+    tv.style.transform='scale(1.1)'
+    tv.style.left="0px"
+    tooltip.style.left="60%"
+    style_width= 4*(100/7);
+    kosomelwidth.style.width = style_width+'%'
+    if (smallerwindow.matches){
+        tooltip.style.left="52%"
+    }else if(evensmallerwindow.matches){
+        tooltip.style.left="59%"
+    }else{
+        tooltip.style.left="72%"
+    }
+    tooltip.textContent="55 بوصة" 
+    size_text.textContent="شاشة كبيرة (55 بوصة)"
+    tv_size_desc.textContent=" الشاشات صاحبة الـ55 بوصة بتبقى مناسبة لمسافة 3.4 متر"
+    revbtn.textContent="إضغط هنا عشان تشوف مراجعة شاشات الـ55 بوصة"
+}

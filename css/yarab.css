@@ -13,7 +13,8 @@ body{
     padding: 0;
 }
 .heading-description-text{
-    font-size: 1rem;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 .maincontainer{
 
@@ -28,8 +29,23 @@ body{
     
     
 }
+.size-heading{
+    font-weight: bold;
+	background: linear-gradient(to right, #1e4ee9fd 0%, #1e4ee9fd 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#TV-descriptions{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
 .heading-text{
     font-size: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+	background: linear-gradient(to right, #0137e8fd 0%, #00f7ff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .headerinfo{
@@ -97,6 +113,9 @@ body{
         transform: translateX(-50%);
         
  }
+ .range{
+    margin-left: 5rem;
+ }
  
  .tooltipcont::before {
     content: "";
@@ -119,8 +138,18 @@ body{
     }
 
     #TV-descriptions{
-        font-size: 11px;
+        font-size: 1rem;
     }
+    .heading-description-text{
+        font-size: 1rem;
+    }
+    .heading-text{
+        font-size: 1.8rem;
+    }
+    .range{
+        margin: auto;
+    }
+
   }
 
   .desc-tv{
